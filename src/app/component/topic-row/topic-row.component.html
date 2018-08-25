@@ -3,7 +3,13 @@
     {{topic.title}}
   </div>
   <div class="col-md-4">
-    {{topic.sentimentScore}}
+    <div class="progress-container progress-primary">
+      <span class="progress-badge">{{topic.sentimentScore}} %</span>
+      <div class="progress">
+        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow=topic.sentimentScore aria-valuemin="0" aria-valuemax="100" [style.width]="topic.sentimentScore + '%'">
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>

@@ -23,9 +23,28 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/scss/material-kit.scss",
+              "src/assets/css/monks-and-bots-font.css",
+              "src/assets/css/custom.css",
+              "src/assets/assets-for-demo/demo.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/core/jquery.min.js",
+              "src/assets/js/core/popper.min.js",
+              "src/assets/js/plugins/moment.min.js",
+              "src/assets/js/plugins/jasny-bootstrap.min.js",
+              "src/assets/js/plugins/jquery.flexisel.js",
+              "src/assets/js/plugins/nouislider.min.js",
+              "src/assets/js/plugins/bootstrap-datetimepicker.js",
+              "src/assets/js/plugins/bootstrap-selectpicker.js",
+              "src/assets/js/plugins/bootstrap-tagsinput.js",
+              "src/assets/js/core/bootstrap-material-design.min.js",
+              "src/assets/js/material-kit.js",
+              "src/assets/assets-for-demo/js/modernizr.js",
+              "src/assets/assets-for-demo/js/vertical-nav.js",
+              "src/assets/assets-for-demo/js/material-kit-demo.js"
+            ]
           },
           "configurations": {
             "production": {

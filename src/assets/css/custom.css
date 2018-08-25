@@ -1,0 +1,67 @@
+.navbar-brand .logo {
+    background-color: black;
+    width: 200px;
+    height: 34px;
+    -webkit-mask: url(../../assets/img/logo.svg) no-repeat center;
+    mask: url(../../assets/img/logo.svg) no-repeat center;
+}
+
+.navbar-transparent .navbar-brand .logo {
+    background-color: white;
+}
+
+
+.footer-brand {
+    background-color: black;
+    width: 150px;
+    height: 28px;
+    -webkit-mask: url(../../assets/img/logo.svg) no-repeat center;
+    mask: url(../../assets/img/logo.svg) no-repeat center;
+}
+
+.highlight {
+    background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
+.btn.btn-outline-white {
+    border-color: currentColor;
+    border-style: solid;
+    border-width: 1px;
+}
+.btn.btn-outline-white {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.btn.btn-outline-white:hover {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: rgba(204, 204, 204, 0.15);
+    border-color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.top-background {
+    height: 55vh;
+    width: 100%;
+    display: block;
+    position: relative;
+
+    background-size: auto;
+    background: url("../img/stars.jpg") center;
+}
+
+.align-text-center {
+  text-align: center;
+}
+
+
+.alert-success-info {
+  background-color: #55b559 !important;
+  color: #ffffff !important;
+  transition: display 3s ease-out;
+  opacity: 1;
+  overflow: hidden;
+}
+
+
