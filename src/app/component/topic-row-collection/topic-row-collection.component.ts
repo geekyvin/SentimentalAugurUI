@@ -15,10 +15,12 @@ export class TopicRowCollectionComponent implements OnInit {
     const topic1: Topic = new Topic();
 
     topic1.title = 'Title1';
+    topic1.sentimentScore = 65;
 
     const topic2: Topic = new Topic();
 
     topic2.title = 'Title2';
+    topic2.sentimentScore = 54;
 
     this.topics.push(topic1);
     this.topics.push(topic2);
